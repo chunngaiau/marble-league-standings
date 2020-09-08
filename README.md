@@ -7,7 +7,9 @@ The `winning_probabilities.ipynb` notebook contains the code to estimate the sta
 3. Above 50th percentile (i.e. ranked top 8)
 4. Last position
 
-The probabilities are estimated using a uniform probability Monte Carlo method and a beta-distribution method that takes into account the teams' performance during the league.
+The probabilities are estimated using a uniform probability Monte Carlo method and a Bernoulli-distribution method that takes into account the teams' performance during the league.
+
+Compared to the true final standings, the uniform probability Monte Carlo method worked better. This is probably caused by the fact the non-uniform method did not have enough data to accurately represent the individual teams' strengths.
 
 Please view the notebooks [here](https://nbviewer.jupyter.org/github/chunngaiau/marble-league-standings/blob/master/winning_probabilities.ipynb).
 
